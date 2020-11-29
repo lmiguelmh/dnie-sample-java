@@ -6,7 +6,7 @@ import javax.smartcardio.*;
 import java.util.List;
 
 /**
- * @author lmiguel
+ * @author lmiguelmh
  */
 public class SimpleApduMain {
     public static void main(String[] args) throws CardException {
