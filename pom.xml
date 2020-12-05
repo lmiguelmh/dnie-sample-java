@@ -16,6 +16,25 @@
     </properties>
 
     <dependencies>
+        <!-- START ICAO dependencies  -->
+        <dependency>
+            <groupId>org.jmrtd</groupId>
+            <artifactId>jmrtd</artifactId>
+            <version>0.7.24</version>
+        </dependency>
+        <!-- really important or jmrtd will fail -->
+        <dependency>
+            <groupId>net.sf.scuba</groupId>
+            <artifactId>scuba-sc-j2se</artifactId>
+            <version>0.0.19</version>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk15on</artifactId>
+            <version>1.67</version>
+        </dependency>
+        <!-- END ICAO dependencies  -->
+
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
