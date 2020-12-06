@@ -46,12 +46,12 @@ public class SimpleICAOMain {
         Thread.sleep(3000);
 
         // Basic Authentication
-        final String documentNumber = "43873223";
-        final String dateOfBirth = "860728";
-        final String dateOfExpiry = "220405";
+        final String documentNumber = "12345678";
+        final String dateOfBirth = "000102";
+        final String dateOfExpiry = "210102";
         doBAC(ps, documentNumber, dateOfBirth, dateOfExpiry);  // works for DNIe v1 and DNIe v2
         // PACE Authentication
-        // final String nuCan = "596722";
+        // final String nuCan = "123456";
         // doPACE(ps, nuCan);  // works only for DNIe v2
 
         // DG1
