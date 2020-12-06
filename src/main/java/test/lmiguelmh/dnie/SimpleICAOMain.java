@@ -46,9 +46,13 @@ public class SimpleICAOMain {
         Thread.sleep(3000);
 
         // Basic Authentication
-        doBAC(ps, "43873223", "860728", "220405");  // works for DNIe v1 and DNIe v2
+        final String documentNumber = "43873223";
+        final String dateOfBirth = "860728";
+        final String dateOfExpiry = "220405";
+        doBAC(ps, documentNumber, dateOfBirth, dateOfExpiry);  // works for DNIe v1 and DNIe v2
         // PACE Authentication
-        // doPACE(ps, "596722");  // works only for DNIe v2
+        // final String nuCan = "596722";
+        // doPACE(ps, nuCan);  // works only for DNIe v2
 
         // DG1
         final DG1File dg1 = (DG1File) LDSFileUtil.getLDSFile(PassportService.EF_DG1, ps.getInputStream(PassportService.EF_DG1, 256));
