@@ -15,4 +15,4 @@ Using JMRTD library to do BAC authentication and read ICAO DG1 and ICAO DG2.
 BAC authentication is compatible with both DNIe v1 and DNIe v2.
 PACE authentication only works for DNIe v2.
 
-This is a part of the presentation: ["El DNI Electrónico peruano v2 y sus aplicaciones"]([https://docs.google.com/presentation/d/1_RHp0y6HZW7RpaGEQK-18KtXAPjx3ZAcPiL7wCt03MU/edit?usp=sharing]) for ["I Congreso Internacional Peruano - Argentino de Ingeniería de Sistemas e Informática"](https://sistemas.edu.pe/copaisi/).
+This is a part of the presentation: ["El DNI Electrónico peruano v2 y sus aplicaciones"]([El DNI Electrónico peruano v2 y sus aplicaciones.pdf]) for ["I Congreso Internacional Peruano - Argentino de Ingeniería de Sistemas e Informática"](https://sistemas.edu.pe/copaisi/).
