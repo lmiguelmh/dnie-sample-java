@@ -8,4 +8,9 @@ public class DnieUtil {
         // for now just use JAXB's DataTypeConverter
         return DatatypeConverter.printHexBinary(bytes);
     }
+
+    public static byte[] toBytes(String hex) {
+        // for now just use JAXB's DataTypeConverter
+        return DatatypeConverter.parseHexBinary(hex);
+    }
 }
